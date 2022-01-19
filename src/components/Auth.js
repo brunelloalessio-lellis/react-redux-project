@@ -1,7 +1,7 @@
 import { useRef } from "react";
-import { authActions } from "../store/index";
 import classes from "./Auth.module.css";
 import { useDispatch } from 'react-redux';
+import { authActions } from '../store/auth';
 
 const Auth = () => {
   const emailRef = useRef();
